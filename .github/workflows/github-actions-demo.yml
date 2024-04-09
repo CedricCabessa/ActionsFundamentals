@@ -16,7 +16,7 @@ jobs:
     - run: |
         echo "event ${{ github.event_name }}"
         echo "branch ${{ github.ref }}"
-    - uses: action/checkout@v4
+    - uses: actions/checkout@v4
     - name: List files in the repo
       run: |
           tree
