@@ -11,7 +11,7 @@ on:
     inputs:
       environment:
         description: "where deploy?"
-        type: environement
+        type: environment
         required: true
  
 jobs:
